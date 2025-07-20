@@ -1,0 +1,11 @@
+enter("Enter n:", nmb n);
+nmb fact =. 1;
+oye(n ==. 0) {
+  printO("0! = 1");
+} naioye {
+  first(nmb i =. 1; i <=. n; i =. i +. 1) {
+    fact =. fact *. i;
+    printO("After step", i, "fact =", fact);
+  }
+}
+printO("Final factorial of", n, "is", fact);

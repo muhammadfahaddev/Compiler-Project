@@ -1,0 +1,5 @@
+nmb num =. 4;
+first(nmb i =. 1; i <=. 10; i =. i +. 1) {
+  nmb res =. num *. i;
+  printO(num, " x ", i, " = ", res);
+}

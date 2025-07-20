@@ -1,0 +1,8 @@
+enter("Enter a number:", nmb num);
+oye(num >. 0) {
+  printO("Number is Positive");
+} chaloye(num <. 0) {
+  printO("Number is Negative");
+} naioye {
+  printO("Number is Zero");
+}

@@ -1,0 +1,25 @@
+enter("Enter your name:", Sring name);
+enter("Enter your age:", nmb age);
+enter("Enter your semester (1–8):", nmb sem);
+
+Ex printYear(nmb s) {
+  oye(s <=. 2) {
+    printO(name, "—1st year");
+  }
+  chaloye(s <=. 4) {
+    printO(name, "—2nd year");
+  }
+  chaloye(s <=. 6) {
+    printO(name, "—3rd year");
+  }
+  naioye {
+    printO(name, "—Final year");
+  }
+}
+
+printYear(sem);
+
+// Loop to “process” each semester up to the one entered
+first(nmb i =. 1; i <=. sem; i =. i +. 1) {
+  printO("Processed semester", i);
+}

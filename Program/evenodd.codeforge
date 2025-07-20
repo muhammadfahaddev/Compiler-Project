@@ -1,0 +1,17 @@
+enter("Enter limit:", nmb limit);
+Ex sumEven(nmb lim) {
+  nmb sum =. 0;
+  buul hasEven =. false;
+  first(nmb i =. 1; i <=. lim; i =. i +. 1) {
+    oye(i %. 2 ==. 0) {
+      sum =. sum +. i;
+      hasEven =. true;
+    }
+  }
+  oye(hasEven ==. true) {
+    printO("Sum of evens up to", lim, "=", sum);
+  } naioye {
+    printO("No even numbers found up to", lim);
+  }
+}
+sumEven(limit);
